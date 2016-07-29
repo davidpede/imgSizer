@@ -1,6 +1,6 @@
 #imgSizer 1.0.0-rc1
 ###An image sizing Extra for MODX Revolution
-This extra generates multiple versions of an image at different sizes. Image sets are generated upon upload of a single image within MODX Revolution. Perfect for responsive image solutions such as srcset and the <picture> element.
+This extra generates multiple versions of an image at different sizes. Image sets are generated upon upload of a single image within MODX Revolution. Perfect for responsive image solutions such as srcset and the HTML picture element.
 
 ####Installation
 Simply download through MODX Package Management, and install.
