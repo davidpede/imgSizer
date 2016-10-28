@@ -32,6 +32,19 @@
         }]
       }]
     }
+    ,"systemSettings": [{
+      "key": "cache_path"
+      ,"namespace": "imgsizer"
+      ,"type": "textfield"
+      ,"area": "Cache"
+      ,"value": ""
+    },{
+      "key": "cache_url"
+      ,"namespace": "imgsizer"
+      ,"type": "textfield"
+      ,"area": "Cache"
+      ,"value": ""
+    }]
   }
   ,"build": {
     "readme": "docs/readme.txt"
