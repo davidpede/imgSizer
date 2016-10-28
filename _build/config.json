@@ -1,0 +1,41 @@
+{
+  "name": "imgSizer"
+  ,"lowCaseName": "imgsizer"
+  ,"description": "An image sizing Extra for MODX Revolution"
+  ,"author": "David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>"
+  ,"version": "1.0.0-rc1"
+  ,"package":{
+    "actions": [{
+      "id": 1
+      ,"controller": "index"
+    }]
+    ,"elements": {
+      "categories": [{
+        "name": "imgSizer"
+      }]
+      ,"plugins": [{
+        "name": "imgSizer"
+        ,"description": "This plugin generates multiple versions of an image at different sizes"
+        ,"file": "imgsizer.plugin.php"
+        ,"events": [
+          "OnFileManagerUpload"
+        ]
+      }]
+      ,"snippets": [{
+        "name": "imgSizer"
+        ,"file": "imgsizer.snippet.php"
+        ,"properties": [{
+          "name": "size"
+          ,"description": "The size of image to be returned"
+          ,"type": "textfield"
+          ,"value": ""
+        }]
+      }]
+    }
+  }
+  ,"build": {
+    "readme": "docs/readme.txt"
+    ,"license": "docs/license.txt"
+    ,"changelog": "docs/changelog.txt"
+  }
+}

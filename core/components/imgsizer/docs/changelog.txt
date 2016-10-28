@@ -1,0 +1,5 @@
+Changelog for imgSizer.
+
+imgSizer 1.0.0-rc1 (October 28, 2016)
+====================================
+- Initial release.
