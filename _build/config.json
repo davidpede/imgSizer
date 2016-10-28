@@ -14,9 +14,9 @@
         "name": "imgSizer"
       }]
       ,"plugins": [{
-        "name": "imgSizer"
+        "name": "imgSizerUpload"
         ,"description": "This plugin generates multiple versions of an image at different sizes"
-        ,"file": "imgsizer.plugin.php"
+        ,"file": "imgsizer.upload.plugin.php"
         ,"events": [
           "OnFileManagerUpload"
         ]
